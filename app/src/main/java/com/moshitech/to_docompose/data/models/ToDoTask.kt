@@ -2,9 +2,9 @@ package com.moshitech.to_docompose.data.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.moshitech.to_docompose.util.Constants.DATABASE_TABLE
+import com.moshitech.to_docompose.util.Constants.DB_TODO_TABLE_TABLE
 
-@Entity(tableName = DATABASE_TABLE)
+@Entity(tableName = DB_TODO_TABLE_TABLE)
 data class ToDoTask(
     @PrimaryKey(autoGenerate = true)
     val id: Int=0,
